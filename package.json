@@ -1,10 +1,11 @@
 {
   "name": "giggleserver",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My little RESTful jokes API. A quick refresher on Express.js, it has no database. Jokes are stored in a hard-coded array of joke objects. Each joke has an ID to allow for fetching a specific joke. Might extend it later with a postgreSQL database and simple auth, then toss it onto Render or Railway.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
